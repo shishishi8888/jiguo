@@ -1,0 +1,469 @@
+.backTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 150px;
+    top: 600px;
+    display: none;
+    background: url('./../img/css-img/back.png') no-repeat center,#e0dfdf;
+}
+
+
+
+.focus {
+    background: url(img/original.jpg) no-repeat center top;
+        height: 300px;
+        overflow: hidden;
+}
+.focus-info {
+    color: #fff;
+
+}
+.focus-info {
+    
+    text-align: right;
+    padding-top: 35px;
+    transform: translate(800px,-800px);
+    /* position: absolute;
+    top: 10xp;
+    left: 10px; */
+    animation: rotateIn 1s ease both;
+
+}
+@keyframes rotateIn{
+    0%{
+        transform: translate(800px,-800px);
+    }
+   
+    100%{
+        transform: translate(0);
+    }
+}
+.focus-info>.btn>a {
+    width: 242px;
+    height: 48px;
+    text-align: center;
+    display: inline-block;
+    line-height: 48px;
+    font-size: 24px;
+    border-radius: 3px;
+    
+}
+
+.wrap {
+    width: 1000px;
+    min-width: 1000px;
+    /* text-align: left; */
+    margin: 0 auto;
+}
+.focus-info h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.focus-info .label span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+    background: rgba(255,255,255,.3);
+}
+.focus-info .time {
+    padding: 20px 0 16px 0;
+    font-size: 18px;
+}
+.focus-info .btn a {
+    width: 242px;
+    height: 48px;
+    text-align: center;
+    display: inline-block;
+    line-height: 48px;
+    font-size: 24px;
+    border-radius: 3px;
+    background: red;
+    color: wheat;
+}
+.useLc {
+    /* width: 100%; */
+    height: 62px;
+    padding: 20px 0;
+    background: #f0f0f0;
+}
+.useLc .lcTit {
+    font-size: 20px;
+    width: 43px;
+    padding-left: 11px;
+    border-left: 6px #fe5341 solid;
+}
+.left {
+    /* width: 700px; */
+    float: left;
+}
+.useLc .lcList {
+    color: #737373;
+}
+.fix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lcList dt {
+    width: 188px;
+    text-align: center;
+    float: left;
+}
+.lcList dt:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 43px;
+}
+.lcList dt:nth-child(1):before {
+    background: url(img/use1.png) no-repeat center top;
+}
+.lcList dt:nth-child(2):before {
+    background: url(img/use2.png) no-repeat center top;
+}
+.lcList dt:nth-child(3):before {
+    background: url(img/use3.png) no-repeat center top;
+}
+.lcList dt:nth-child(4):before {
+    background: url(img/use4.png) no-repeat center top;
+}
+.lcList dt:nth-child(5):before {
+    background: url(img/use5.png) no-repeat center top;
+}
+.lcList dt:nth-child(1) p {
+    display: inline-block;
+    border-bottom: 2px solid #fe5341;
+}
+.useIntro {
+    margin-top: 25px;
+}
+.title {
+    color: #474747;
+    line-height: 1.6;
+}
+.useDetial .title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    left: 0;
+    top: 18px;
+    background: #fe5341;
+}
+.useDetial .top {
+    color: rgb(255, 0, 0);
+}
+.useDetial .top {
+    font-size: 18px;
+    font-weight: bold;
+}
+.useDetial .little {
+    color: rgb(0, 112, 192);
+}
+.useDetial .little {
+    font-weight: bold;
+}
+.useDetial .title {
+    position: relative;
+    padding: 18px 0 16px 16px;
+    font-size: 20px;
+}
+.useDetial .title:after {
+    background: #fe5341;
+}
+.useDetial .title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    left: 0;
+    top: 18px;
+}
+.useDetial{
+    width: 700px;
+}
+.blue {
+    color: #0177A7;
+}
+.useDetial .red {
+    color: red;
+    font-weight: bold;
+}
+.listR {
+    width: 270px;
+}
+.right {
+    float: right;
+}
+.listR .title {
+    position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+}
+.listR .title:after {
+    background: #fe5341;
+}
+.listR .title:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 0;
+}
+.listR .gm .money {
+    color: #fe5341;
+}
+.listR .gm .money {
+    font-size: 40px;
+    padding: 20px 0 15px;
+}
+.listR .gm .buyBtn {
+    color: #fff;
+    background: #fe5341;
+}
+.listR .gm .buyBtn {
+    display: block;
+    height: 48px;
+    border-radius: 5px;
+    line-height: 48px;
+    font-size: 18px;
+    text-align: center;
+}
+.listR .gm .resource {
+    color: #a3a3a3;
+}
+
+.listR .gm .resource {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.listR .gm .buyBtn {
+    color: #fff;
+    background: #fe5341;
+}
+.listR .gm .buyBtn {
+    display: block;
+    height: 48px;
+    border-radius: 5px;
+    line-height: 48px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.listR .gm .resource {
+    color: #a3a3a3;
+}
+
+.listR .gm .resource {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.listR .imgBox {
+    margin-top: 20px;
+}
+figure {
+    padding: 0;
+    margin: 0;
+}
+img {
+    vertical-align: top;
+}
+.listR .info {
+    margin: 10px 0 20px;
+}
+.listR .info h5 {
+    color: #474747;
+}
+
+.listR .info h5 {
+    font-size: 16px;
+    padding: 5px 0;
+}
+.listR .info .text {
+    color: #a3a3a3;
+}
+.listR .info .text {
+    font-size: 14px;
+}
+.listR .guanzhu {
+    padding-top: 40px;
+}
+.useBtm {
+    margin-bottom: 25px;
+}
+.common .title, .hot-box .title {
+    position: relative;
+    padding: 18px 0 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.common .title a.more {
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    padding-right: 17px;
+    font-size: 14px;
+}
+.title a.more {
+    background: url(img/readMore.png) no-repeat right 7px;
+    color: #fd6959;
+}
+.use dl dt {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 286px;
+    float: left;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    margin-right: 37px;
+}
+.use dt a {
+    display: block;
+}
+.use dl:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.use dt .shoufa {
+    background: #fe5341;
+}
+.use dt .top-tip {
+    color: #f5e8e8;
+}
+.use dt .top-tip {
+    position: absolute;
+    line-height: 22px;
+    z-index: 10;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    top: 0;
+    right: 0;
+}
+.use dt .hot-con {
+    padding: 8px 8px 14px;
+    text-align: center;
+}
+.hot-con .sq{
+    color: #000;
+}
+.use dt .name {
+    font-size: 16px;
+    height: 48px;
+    font-weight: bold;
+    color: #000;
+}
+.use dt .red span, .use dt .sq span, .use dt .red {
+    color: #fe5341;
+}
+.use dt .tabs {
+    padding: 6px 0;
+}
+.use dt .tabs span {
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.use dt .red span {
+    border: 1px solid #fe5341;
+    
+}
+.use dl dt {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 286px;
+    float: left;
+    border: 1px solid #e6e9e9;
+    border-radius: 6px;
+    margin-right: 28px;
+}
+
+.use dt .top-tip {
+    position: absolute;
+    line-height: 22px;
+    z-index: 10;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    top: 0;
+    right: 0;
+}
+.use dt .top-tip {
+    color: #f5e8e8;
+}
+.use dt .green span, .use dt .green {
+    color: #80c269;
+}
+.use dt .tabs {
+    padding: 6px 0;
+}
+.use dt .green span, .use dt .green {
+    color: #80c269;
+}
+.use dt .green span {
+    border: 1px solid #80c269;
+}
+.use dt .tabs span {
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.use dt .sq {
+    font-size: 16px;
+    line-height: 28px;
+}
+.use dt .current {
+    font-size: 14px;
+    line-height: 20px;
+}
+.use dt .tys {
+    background: #fbf4cb;
+    color: #c4a96a;
+}
+
+
+#reds a{
+    color: red;
+}
+
+
+
+
+@keyframes ficker {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+ }
+.use dl dt a:hover img{
+    animation: ficker 1s linear infinite;
+}
+.listR .gm .buyBtn:hover{
+    background: red;
+}

@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+body{
+    overflow: scroll;
+}
+.backTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 150px;
+    top: 80%;
+    display: none;
+    background: url('./../img/css-img/back.png') no-repeat center,#e0dfdf;
+}
+header{
+    height: 76px;
+    border:1px solid #cecfcf;
+    box-shadow: 0 0 5px #cecfcf inset;
+}
+.container-t{
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+}
+.container-b{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 132px;
+    margin-top: 13px
+}
+.nav{
+    height: 68px;
+    /* padding: 28px 0 0 40 px ; */
+    margin-left: 40px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    height: 32px;
+    line-height: 32px;
+    margin: 28px 25px 0 25px;
+    font-size: 20px;
+}
+.nav li a{
+    color:black;
+}
+.nav li a:hover{
+    color: #fe5341;
+}
+#on a{
+    color: #fe5341;
+}
+.regist{
+    width: 52px;
+    text-align: center;
+    height: 32px;
+    line-height: 30px;
+    color: #fe5341;
+    border-radius: 4px;
+    border: 1px solid #fe5341;
+    box-sizing: border-box;
+    margin-top: 23px;
+}  
+.regist:hover{
+    color: white;
+    background: #fe5341;
+}
+.search{
+    width: 42px;
+    height: 40px;
+    /* background: url('./../img/css-img/search.png') no-repeat; */
+    margin: 28px 15px 0 0 ;
+    /* overflow: hidden; */
+}
+.search:hover img{
+    transform: scale(1.2)
+}
+
+
+
+/********************尾部********** */
+footer{
+    color: #a3a3a3;
+    background: #505050;
+    padding: 40px 0 15px 0;
+    font-size: 13px;
+}
+.foot-top{
+    
+}
+footer a{
+    color: #a3a3a3; 
+}
+.ma{
+    width: 160px;
+    height: 160px;
+}
+.foot-top dl{
+    margin-left: 22px;
+}
+.container .foot-top dl:first-child{
+    margin-left: 0;
+}
+.foot-top dl:nth-child(2),.foot-top dl:nth-child(4){
+    width: 140px;
+}
+.foot-top dl:nth-child(3){
+    width: 100px;
+}
+.foot-top dl:nth-child(5){
+    width: 148px;
+}
+.foot-top dl:nth-child(6){
+    width: 180px;
+}
+.foot-top dl:nth-child(4) dd a{
+    display: inline-block;
+    width: 68px;
+}
+
+.foot-top dt{
+    color: #fff;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 25px
+}
+.foot-top dd{
+    height: 20px;
+    line-height: 20px;
+}
+.logoi dt{
+    height: 46px;
+    padding-bottom: 12px;
+}
+.logoi dd{
+    height: 40px;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.foot-buttom{
+    text-align: center;
+    padding-top: 80px;
+    height: 20px ;
+    line-height: 20px;
+}
+/*公共样式*************************** */
+body{
+    color: #333;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.content{
+    background: #f7f7f7;
+}
+.wrap_top h1{
+    text-align:center;
+    padding:34px 0 30px;
+    font-size:40px;
+    font-weight: normal;
+}
+.icon_xin {
+    background: url('img/xin.png') no-repeat left center;
+}
+.icon_replay{
+    background: url('img/reply.png') no-repeat left center;
+}
+
+/*清除ul样式*/
+ul{
+    list-style: none;
+}
+/*清除a样式*************************** */
+a{
+    text-decoration:none;
+    color:#333;
+    outline:none;
+
+}
+span{
+    display: inline-block;
+}
+aside{
+    display: block;
+}
+.clearfix{
+    clear: both;
+    height: 0;
+}
+/*酷玩内容部分导航*************************** */
+.com_nav a {
+    color:  #a3a3a3;
+    display:inline-block;
+    padding-bottom:12px;
+    width:165px;
+    font-size:18px;
+}
+.com_nav{
+    text-align:center;
+    line-height:1.7;
+    font-size:0;
+}
+.com_nav .on
+{
+    color:#fe5341;
+}
+.com_nav a:hover{
+    color:#fe5341;
+}
+
+.com_nav a.on{
+    border-bottom:4px #fe5431 solid;
+    padding-bottom:8px;
+}
+
+.no_more{
+    color: #a3a3a3;
+    padding-left: 24px;
+}
+
+/*动画效果*************************** */
+@-webkit-keyframes fade{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:0.6;
+    }
+}
+@-moz-keyframes fade{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:0.6;
+    }
+}
+@keyframes fade{
+    0%,100%{
+        opacity:1;
+    }
+    50%{
+        opacity:0.6;
+    }
+}
+/*酷玩图片闪的效果*/
+.content .play_show li a >img:hover
+{
+    -webkit-animation:fade 1.2s ease-in infinite both;
+    -moz-animation:fade 1.2s ease-in infinite both;
+    animation:fade 1.2s ease-in infinite both;
+}
+
+/*导购图片闪的效果*/
+.content .guid_show li a >img:hover
+{
+    -webkit-animation:fade 1.2s ease-in infinite both;
+    -moz-animation:fade 1.2s ease-in infinite both;
+    animation:fade 1.2s ease-in infinite both;
+}
+.loading
+{background-image:url('./img/loading-icon.gif');
+}

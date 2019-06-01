@@ -1,0 +1,8 @@
+.section1-nav .no{
+    color: red;
+    border-bottom: 4px solid #fe5431;
+}
+.section1-nav .on{
+    color: rgb(90, 86, 86);
+    border-bottom: 4px solid #ffffff;
+}

@@ -1,0 +1,362 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.backTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 150px;
+    top: 600px;
+    display: none;
+    background: url('./../img/css-img/back.png') no-repeat center,#e0dfdf;
+}
+.backTop:hover{
+    background: url('./../img/css-img/back.png') no-repeat center,#d8d7d7;
+}
+.opacity {
+    width: 220px;
+    height: 130px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    padding: 0;
+    background: white;
+}
+
+.opacity:hover {
+    animation: opa 1s linear infinite;
+}
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.bg {
+    height: 300px;
+    overflow: hidden;
+    background: url('./../img//css-img//original.jpg') no-repeat center top;
+    color: white;
+    text-align: right;
+    /* position: relative; */
+}
+
+.bg .container div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 35px;
+}
+
+.bg .container div h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.bg .container div span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3PX;
+    font-size: 16PX;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, .3)
+}
+
+.bg .container div p {
+    padding: 20px 0 16px 0;
+    font-size: 18px;
+}
+
+.bg .container div a {
+    display: inline-block;
+    width: 242px;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    color: white;
+    background: #fe5341;
+    border-radius: 3px;
+    font-size: 24px;
+}
+
+/* //轮播图 */
+.all {
+    width: 100%;
+}
+
+.title {
+    font-size: 20px;
+    padding: 18px 0 16px 0;
+    font-weight: bold;
+    color: #474747;
+}
+
+.hot {
+    width: 1000px;
+    height: 288px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn {
+    position: relative;
+}
+
+.prev {
+    width: 37px;
+    height: 78px;
+    position: absolute;
+    top: 120px;
+    background: url('./../img/css-img/prev.png') no-repeat;
+    left: 13%;
+}
+
+.next {
+    width: 37px;
+    height: 78px;
+    position: absolute;
+    top: 120px;
+    background: url('./../img/css-img/next.png') no-repeat;
+    right: 13%;
+}
+
+.hot ul li {
+    position: relative;
+    width: 220px;
+    height: 286px;
+    text-align: center;
+    float: left;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 37px;
+}
+
+.hot ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+
+.hot>ul>li>img {
+    width: 100%;
+}
+
+.first-p>span:first-child {
+    color: white;
+    background: #fe5341;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.experience>span:first-child {
+    color: #c4a96a;
+    background: #fbf4cb;
+    padding: 0 8px;
+    border-radius: 0 0 0 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.red {
+    display: inline-block;
+    color: #fe5341;
+    border-radius: 5px;
+    border: 1px solid #fe5341;
+    padding: 2px 10px;
+    margin: 6px 5px;
+}
+
+.green {
+    display: inline-block;
+    color: #80c269;
+    border-radius: 5px;
+    border: 1px solid #80c269;
+    padding: 2px 10px;
+    margin: 6px 5px;
+}
+
+.hot>ul>li>p {
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px
+}
+
+.hot>ul>li>p>span {
+    color: #fe5341;
+}
+
+.first-p>span:last-child {
+    color: #fe5341;
+}
+
+.experience>span:last-child {
+    color: #80c269;
+}
+
+/* //******报告精选 */
+.report-box {
+    background: #f7f7f7;
+    margin: 32px auto;
+    overflow: hidden;
+}
+
+.font {
+    padding: 16px 0 18px 0;
+    color: #474747;
+}
+.font-l {
+    font-weight: bold;
+    font-size: 20px;
+}
+.font-r {
+    color: #fd6959;
+    font-size: 14px;
+    padding-right: 17px;
+    background: url('./../img/css-img/readMore.png')no-repeat right 7px;
+}
+/* //////报告精选、、、、、、、、、、、 */
+#two_list li {
+    width: 220px;
+    height: 231px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #e6e9e9;
+    position: relative;
+    margin: 0 37px 20px 0;
+}
+#two_list li:nth-of-type(4n){
+    margin: 0 0 20px 0 ;
+}
+#two_list li img {
+    width: 100%;
+}
+/* /导购精选、、、、、、、、、、、、、/ */
+#three_list li {
+    width: 220px;
+    height: 205px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #e6e9e9;
+    position: relative;
+    margin: 0 37px 20px 0;
+    padding-bottom: 15px;
+}
+#three_list li:nth-of-type(4n){
+    margin: 0 0 20px 0 ;
+}
+#three_list li img {
+    width: 100%;
+}
+#three_list .herd>div{
+    background: url('./../img/css-img/listbg.jpg')no-repeat center bottom;
+}
+.herd>div{
+    color: #474747;
+    font-size: 14px;
+    padding: 7px 10px 15px 10px;
+}
+.herd>div>span{
+    margin-bottom: 10px;
+}
+.herd>div>p{
+    font-size: 13px;
+    color: #a3a3a3;
+    margin-top: 25px;
+    height: 20px;
+}
+.herd>div>p span{
+    padding-left: 15px;
+    margin: 0 2px;
+}
+.herd>div>p span:first-child{
+    background: url('./../img/css-img/reply.png') no-repeat left 4px;
+}
+.herd>div>p span:last-child{
+    background: url('./../img/css-img/zan.png') no-repeat left 2px;
+}
+
+.guide {
+    overflow: hidden;
+    margin: 32px auto;
+}
+/* //酷玩..................... */
+.play-box {
+    background: #f7f7f7;
+    margin: 32px auto;
+    overflow: hidden;
+}
+#last_list li {
+    width: 220px;
+    height: 231px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #e6e9e9;
+    position: relative;
+    margin: 0 37px 20px 0;
+}
+#last_list li:nth-of-type(4n){
+    margin: 0 0 20px 0 ;
+}
+#last_list li img {
+    width: 100%;
+    height: 130px;
+}
+#last_list li a div p{
+    margin-top: 5px;
+}
+#last_list li a div p:last-child{
+    color:red;
+}
+#last_list li a div p span{
+    color: #a3a3a3
+}
+
+/* 加载更多 */
+#more_list li {
+    width: 220px;
+    height: 231px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid #e6e9e9;
+    position: relative;
+    margin: 0 37px 20px 0;
+}
+#more_list li:nth-of-type(4n){
+    margin: 0 0 20px 0 ;
+}
+#more_list li img {
+    width: 100%;
+    height: 130px;
+}
+#more_list li a div p{
+    margin-top: 5px;
+}
+#more_list li a div p:last-child{
+    color:red;
+}
+#more_list li a div p span{
+    color: #a3a3a3
+}
+/* //加载更多 */
+#more{
+    display: block;
+    color: #fe5341;
+    padding-left: 24px;
+    width: 140px;
+    margin: 25px auto;
+    background: url('./../img/css-img/more.png')no-repeat center left;
+}

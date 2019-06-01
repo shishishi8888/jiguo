@@ -1,0 +1,63 @@
+{
+  "play_data":[
+    {
+      "img": "../img/k1.jpg",
+      "title": "SCiO 微型光谱仪",
+      "detail": "可以测定食物成分及营养",
+      "price": "￥ 1212",
+      "xinNum":3,
+      "replayNum":3
+    },
+    {
+      "img": "../img/k2.jpg",
+      "title": "B&O BeoSound 35 音响",
+      "detail": "支持所有音乐流媒体服务",
+      "price": "￥ 5123",
+      "xinNum":4,
+      "replayNum":6
+    },
+    {
+      "img": "../img/k3.jpg",
+      "title": "Mozbii 触控吸色笔",
+      "detail": "能吸取65000种颜色",
+      "price": "￥ 暂无",
+      "xinNum":3,
+      "replayNum":5
+    },
+    {"img":"../img/k4.jpg",
+      "title":"巴慕达 The Toaster",
+      "detail": " 烤面包机",
+      "price":"￥ 487",
+      "xinNum":8,
+      "replayNum":9
+    },
+    {"img":"../img/hot5.jpg",
+      "title":"XPLORER 2 航拍飞行器",
+      "detail": " 搭载自动避障系统",
+      "price":"￥ 433",
+      "xinNum":4,
+      "replayNum":6
+    },
+    {"img":"../img/hot6.jpg",
+      "title":"Mozbii 触控吸色笔",
+      "detail":"能吸取65000种颜色",
+      "price":"￥ 433",
+      "xinNum":8,
+      "replayNum":9
+    },
+    {"img":"../img/hot7.jpg",
+      "title": "巴慕达 The Toaste",
+      "detail":" 烤面包机",
+      "price":"￥ 123",
+      "xinNum":3,
+      "replayNum":5
+    },
+    {"img":"../img/hot8.jpg",
+      "title": "SCiO 微型光谱仪",
+      "detail":"可以测定食物成分及营养",
+      "price":"￥ 163",
+      "xinNum":4,
+      "replayNum":6
+    }
+  ]
+  }

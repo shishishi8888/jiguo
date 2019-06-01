@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+header{
+    height: 76px;
+    border:1px solid #cecfcf;
+    box-shadow: 0 0 5px #cecfcf inset;
+    overflow: hidden;
+}
+.container-t{
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container-b{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 132px;
+    margin-top: 13px
+}
+.nav{
+    height: 68px;
+    margin-left: 40px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    height: 32px;
+    line-height: 32px;
+    margin: 28px 25px 0 25px;
+    font-size: 20px;
+}
+.nav li a{
+    color:black;
+}
+.nav li a:hover{
+    color: #fe5341;
+}
+#on a{
+    color: #fe5341;
+}
+.regist{
+    width: 52px;
+    text-align: center;
+    height: 32px;
+    line-height: 30px;
+    color: #fe5341;
+    border-radius: 4px;
+    border: 1px solid #fe5341;
+    box-sizing: border-box;
+    margin-top: 23px;
+}  
+.regist:hover{
+    color: white;
+    background: #fe5341;
+}
+.search{
+    width: 42px;
+    height: 40px;
+    /* background: url('./../img/css-img/search.png') no-repeat; */
+    margin: 28px 15px 0 0 ;
+    /* overflow: hidden; */
+}
+.search:hover img{
+    transform: scale(1.2)
+}   
+
+
+/********************尾部********** */
+footer{
+    color: #a3a3a3;
+    background: #505050;
+    padding: 40px 0 15px 0;
+    font-size: 13px;
+    /* overflow: hidden; */
+}
+.foot-top{
+    
+}
+footer a{
+    color: #a3a3a3; 
+}
+.ma{
+    width: 160px;
+    height: 160px;
+}
+.foot-top dl{
+    margin-left: 22px;
+}
+.container .foot-top dl:first-child{
+    margin-left: 0;
+}
+.foot-top dl:nth-child(2),.foot-top dl:nth-child(4){
+    width: 140px;
+}
+.foot-top dl:nth-child(3){
+    width: 100px;
+}
+.foot-top dl:nth-child(5){
+    width: 148px;
+}
+.foot-top dl:nth-child(6){
+    width: 180px;
+}
+.foot-top dl:nth-child(4) dd a{
+    display: inline-block;
+    width: 68px;
+}
+
+.foot-top dt{
+    color: #fff;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 25px
+}
+.foot-top dd{
+    height: 20px;
+    line-height: 20px;
+}
+.logoi dt{
+    height: 46px;
+    padding-bottom: 12px;
+}
+.logoi dd{
+    height: 40px;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.foot-buttom{
+    text-align: center;
+    padding-top: 80px;
+    height: 20px ;
+    line-height: 20px;
+}

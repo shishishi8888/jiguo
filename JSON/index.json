@@ -1,0 +1,213 @@
+{
+    "lunbo":[
+        {
+            "text":"首发",
+            "img_url":"./img/hot1.jpg",
+            "title":"巴慕达 The Toaster 烤面包机",
+            "arr_num":["2032","20台"],
+            "sq":"1392",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"体验师专享",
+            "img_url":"./img/hot2.jpg",
+            "title":"Osprey小鹰户外运动专业腰包",
+            "arr_num":["2092","30台"],
+            "sq":"139",
+            "info":{
+                "type":1,
+                "cla_m":"experience",
+                "cla_f":"green"
+
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot3.jpg",
+            "title":"Liquid Image 338 运动摄像眼镜",
+            "arr_num":["2022","12台"],
+            "sq":"1192",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot4.jpg",
+            "title":"巴慕达 The Toaster 烤面包机",
+            "arr_num":["2002","20台"],
+            "sq":"1352",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot5.jpg",
+            "title":"ada The Toaster 烤面包机",
+            "arr_num":["232","200台"],
+            "sq":"132",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"体验师专享",
+            "img_url":"./img/hot6.jpg",
+            "title":"Osprey小鹰户外运动专业腰包",
+            "arr_num":["2092","30台"],
+            "sq":"139",
+            "info":{
+                "type":1,
+                "cla_m":"experience",
+                "cla_f":"green"
+
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot7.jpg",
+            "title":"Liquid Image 338 运动摄像眼镜",
+            "arr_num":["2022","12台"],
+            "sq":"1192",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot8.jpg",
+            "title":"巴慕达 The Toaster 烤面包机",
+            "arr_num":["2002","20台"],
+            "sq":"1352",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot9.jpg",
+            "title":"巴慕达 The Toaster 烤面包机",
+            "arr_num":["2032","20台"],
+            "sq":"1392",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"体验师专享",
+            "img_url":"./img/hot10.jpg",
+            "title":"Osprey小鹰户外运动专业腰包",
+            "arr_num":["2092","30台"],
+            "sq":"139",
+            "info":{
+                "type":1,
+                "cla_m":"experience",
+                "cla_f":"green"
+
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot11.jpg",
+            "title":"Liquid Image 338 运动摄像眼镜",
+            "arr_num":["2022","12台"],
+            "sq":"1192",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        },
+        {
+            "text":"首发",
+            "img_url":"./img/hot12.jpg",
+            "title":"巴慕达 The Toaster 烤面包机",
+            "arr_num":["2002","20台"],
+            "sq":"1352",
+            "info":{
+                "type":0,
+                "num":2,
+                "cla_m":"first-p",
+                "cla_f":"red"
+            }
+        }
+    ],
+    "two_list":[
+		{"img":"./img/re2.jpg","title":"苏苏","text":"空气净化器里面学问多得惊呆你，你选对了吗？"},
+		{"img":"./img/re3.jpg","title":"云云","text":"Liquid Image 338 运动摄像眼镜哈哈嘿嘿"},
+		{"img":"./img/re4.jpg","title":"二狗","text":"巴慕达 The Toaster 烤面包机那就这样吧"},
+		{"img":"./img/re1.jpg","title":"狗子","text":"Osprey小鹰户外运动专业腰包字数够了真的服气"},
+		{"img":"./img/hot12.jpg","title":"难受","text":"怎么骑都不会累的智能自行车：云马 C1试骑体验"},
+		{"img":"./img/hot9.jpg","title":"还好","text":"声音不是最优秀，但它形音完美的结合，足够打动人心"},
+		{"img":"./img/hot10.jpg","title":"就这","text":"风光大片信手拈来！vivo X6Plus不只是快"},
+		{"img":"./img/hot11.jpg","title":"好了","text":"到底有没有完美的iPhone手机配件，答案都在这里"}
+	],
+    "three_list":[
+		{"img":"./img/g1.jpg","text":"花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到"},
+		{"img":"./img/g2.jpg","text":"到底有没有完美的iPhon手机配件，答案都在这里"},
+		{"img":"./img/g3.jpg","text":"2016年，这8支钢笔够你装逼一整年"},
+        {"img":"./img/g4.jpg","text":"他用12年找一把完美剃须刀，给你2万字终极购买指南"}
+	],
+    "four_list":[
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"}
+    ],
+    "more_list":[
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"},
+        {"img":"./img/k1.jpg","price":"1212","title":"定位系统","text":"怎么骑都不会累智能自行车"},
+        {"img":"./img/k2.jpg","price":"513","title":"颜色系统","text":"声音不是最优秀形音完美"},
+        {"img":"./img/k4.jpg","price":"暂无","title":"上天系统","text":"风光大片信手拈来！vivo "},
+        {"img":"./img/k3.jpg","price":"433","title":"闹着玩系统","text":"到底有没有完美的iPhone"}
+    ]
+
+}

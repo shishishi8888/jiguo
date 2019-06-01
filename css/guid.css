@@ -1,0 +1,211 @@
+.backTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 150px;
+    top: 600px;
+    display: none;
+    background: url('./../img/css-img/back.png') no-repeat center,#e0dfdf;
+}
+
+/*导购部分内容样式****************************/
+.guid_show img{
+    width: 220px;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+}
+.guid_show{
+    overflow: hidden;
+    margin:0 auto;
+    width: 1036px;
+
+}
+.guid_show li{
+    font-size: 0px;
+    float: left;
+    width: 220px;
+    height: 224px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    margin: 13px 18px;
+    background:white;
+    position: relative;
+}
+.guid_show li:nth-child(1){
+    margin-top: 25px;
+}
+.guid_show li:nth-child(2){
+    margin-top: 25px;
+}
+.guid_show li:nth-child(3){
+    margin-top: 25px;
+}
+.guid_show li:nth-child(4){
+    margin-top: 25px;
+}
+.guid_price{
+    font-size: 14px;
+    color: #fe5341;
+}
+.guid_title{
+    display: block;
+    font-size: 14px;
+    height: 45px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.guid_icon{
+    float: right;
+    margin-right: 10px;
+}
+.guid_icon span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 14px;
+    margin-left: 3px;
+    font-size: 11px;
+    color: #a3a3a3;
+}
+.icon_fix{
+    overflow: hidden;
+    padding: 13px 0;
+}
+.guid_show .info{
+    background: url('../css/img/listbg.jpg') no-repeat left bottom;
+    background-size: 221px 19px;
+    padding: 10px 10px 10px;
+}
+.playMore{
+    margin-top: 40px;
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.guid_more{
+    background: url('img/more.png') no-repeat left center;
+    color: #fe5341;
+    padding-left: 24px;
+}
+/*用户体验详情页面样式****************************/
+.report_box{
+    width: 1000px;
+    border-radius: 6px;
+    margin: 0 auto;
+    position: relative;
+}
+.detail_nav{
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+.detail_nav a{
+    color: #a3a3a3;
+}
+.detail_left{
+    width: 700px;
+    background: white;
+}
+.detail_title{
+    padding: 24px;
+    border-bottom: 1px solid  #e0e0e0 ;
+}
+.detail_title h2{
+    color: #474747;
+    font-weight: normal;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.detail_user{
+    color: #a3a3a3;
+    font-size: 11px;
+}
+.head_pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: url('../css/img/tx.jpg') no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.article{
+    font-size: 14px;
+    line-height: 23px;
+    padding: 19px 24px 20px;
+}
+.article h5{
+    font-size: 16px;
+    text-align: center;
+}
+.article_btm{
+    padding: 35px 0 35px 20px;
+    font-size: 14px;
+
+}
+.article_btm li a{
+     color: #a3a3a3;
+}
+.detail_feel {
+    background: #fff;
+    height: 108px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #ebeaea;
+    box-shadow: 0 1px 1px 1px #eee;
+}
+.detail_right{
+    width: 268px;
+    position: absolute;
+    top:50px;
+    left:730px;
+}
+.detail_right a{
+    color: #a3a3a3;
+    width: 100%;
+    height: 108px;
+    vertical-align: middle;
+
+}
+.detail_feel li:first-child {
+    border-right: 1px solid #ebeaea;
+}
+.detail_feel li{
+    float: left;
+    width: 132px;
+    height: 100%;
+    text-align: center;
+}
+.detail_feel li a:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 26px;
+    margin: 30px auto 8px auto;
+    background: url('../css/img/xinRedo.png') no-repeat center center;
+}
+.detail_feel li:last-child a:before {
+    background: url('../css/img/share_yj1.png') no-repeat center center;}
+
+.detail_feel li :hover {
+    color: #fe5341;
+}
+.detail_feel li:first-child a:hover:before{
+    background: url('../css/img/xinRedh.png') no-repeat center center;
+}
+.detail_feel li:last-child a:hover:before{
+    background: url('../css/img/shareh_yj1.png') no-repeat center center;
+}
+
+/*分享样式设置 */
+.bshare-custom{
+    position: absolute;
+    top: 136px;
+    right: -52px;
+    display: none;
+}
+
+

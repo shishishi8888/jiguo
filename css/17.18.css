@@ -1,0 +1,83 @@
+
+/* 最大的 */
+.about{
+    width: 1000px;
+    margin: 50px auto;
+}
+/* 左边最大的 */
+.listR{
+    width: 230px;
+}
+
+/* 左边最大的里面的div */
+.listR .left_div1{
+/* width: 270px;
+height: 318px; */
+background-color: #F3F3F3;
+border-radius: 5px;
+padding:25px 20px;
+}
+.left_div1 h2{
+    font-size: 20px;
+    line-height: 38px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.listR .left_div1 dl{
+    /* width: 230px; */
+    padding: 10px 18px;
+    font-size: 16px;
+    line-height: 1.7
+}
+.listR .left_div1 dl dt a{
+    font-weight: bold;
+    color: #000;
+}
+.listR .left_div1 dl dd a{
+    color: #535353;
+}
+.listR .left_div1 dl dd{
+   padding-left: 15px; 
+}
+/* 左边的结束 */
+/* ************************************************** */
+/* 右边最大的 */
+.listInfo{
+    width: 700px;
+    
+}
+/* 右边最大的里面的div */
+.listInfo .right_div1{
+   
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    padding: 25px 33px;
+}
+.listInfo .right_div1 h2{
+    font-size: 20px;
+    line-height: 38px;
+    border-bottom: 1px solid #a0a0a0; 
+}
+.listInfo .right_div1 h2 a{
+    color: #000;
+}
+.listInfo .right_div1 dl dt a{
+    font-weight: bold;
+    color: #000;
+}
+.listInfo .right_div1 dl dd a{
+    color: #000;
+}
+.right_div1 .right_div2 h3{
+    font-size: 16px;
+    padding: 25px 0 20px;
+    font-weight: bold;
+}
+.right_div1 .right_div2 p {
+    line-height: 1.8;
+    color: #535353;
+}
+.right_div1 .right_div2 h5 {
+    font-size: 20px;
+    padding: 18px 0 16px;
+    font-weight: bold;
+}

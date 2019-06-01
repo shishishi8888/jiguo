@@ -1,0 +1,107 @@
+
+
+
+
+
+.regist-section{
+    height: 846px;
+    background: #f7f7f7;
+    /* margin: 10px; */
+}
+.regist-section .regist-section-div{
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px #d7d7d7 solid;
+    
+}
+.divon{
+    width: 1000px;
+    height: 786px;
+    min-width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px #d7d7d7 solid;
+}
+.divon .title{
+    position: relative;
+    padding: 20px 0 20px 25px;
+    font-size: 20px;
+    color: #474747;
+    line-height: 1.6;
+    font-weight: normal;
+}
+.divon .title:after{
+    background: #fe5341;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 24px;
+}
+.regForm{
+    width: 400px;
+    margin: 50px auto 150px;
+}
+.regForm p {
+    margin-top: 27px;
+}
+.regForm input {
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px #eee solid;
+    border-radius: 10px;
+    background: #f7f7f7;
+    color: #a3a3a3;
+    font-family: "Microsoft YaHei",SimHei,"微软雅黑","黑体";
+}
+.regForm p:nth-child(2), .regForm p:nth-child(3) {
+    position: relative;
+}
+.regForm p {
+    margin-top: 27px;
+}
+.regForm p:nth-child(2) input, .regForm p:nth-child(3) input {
+    width: 245px;
+}
+.regForm p:nth-child(2) img, .regForm p:nth-child(3) .getCode {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.regForm p:nth-child(3) .getCode {
+    color: #a3a3a3;
+}
+.regForm p:nth-child(3) .getCode {
+    display: block;
+    box-sizing: border-box;
+    width: 132px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px #a3a3a3 solid;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.regForm button {
+    border: medium none;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.regForm button {
+    background: #fe5341;
+    color: #fff;
+}
